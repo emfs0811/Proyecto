@@ -17,9 +17,9 @@
             <img src="{{ asset('img/cintilloportal.jpg') }}"width="100%" height=90px id="header">
         </div>
         <div class="container">
-
+        <br>
          @yield('content')
-        
+        <br>
         </div>
         <div id="footer">
         <footer align="center" class="imgfooter">
