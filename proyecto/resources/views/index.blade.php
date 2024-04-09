@@ -1,7 +1,6 @@
 @extends('layouts.base')
-<link rel="stylesheet" href="resources/css/style.css">
 @section('content')
-<div class="container" class=" col-xs-12">
+    <div class="container" class=" col-xs-12">
                                 <p><img src="img/ISOTIPO-BDV.png" width="55px" height="55px"> ARQFUN </p>
                                 <h1>Iniciar Sesión</h1>
                                 <hr>
@@ -10,5 +9,5 @@
                                 <button type="submit" > Ingresar</button>
                                 
                             </form>
-</div>
+    </div>
 @endsection
