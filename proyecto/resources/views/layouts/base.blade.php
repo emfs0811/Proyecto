@@ -17,11 +17,13 @@
             <img src="{{ asset('img/cintilloportal.jpg') }}"width="100%" height=90px id="header">
         </div>
         <div class="container">
+
          @yield('content')
+        
         </div>
         <div id="footer">
-        <footer>
-        <p><img class="imgfooter" src="{{asset('img/ISOTIPO-BDV.png')}}" width="25px" height="25px"> Banco de Venezuela - Gerencia de Línea Arquitectura Funcional-2022</p>
+        <footer align="center" class="imgfooter">
+        <h6 class="imgfooter"><img class="imgfooter" src="{{asset('img/ISOTIPO-BDV.png')}}" width="25px" height="25px"> Banco de Venezuela - Gerencia de Línea Arquitectura Funcional - 2024</h6>
         </footer> 
         </div>
     </div> 
