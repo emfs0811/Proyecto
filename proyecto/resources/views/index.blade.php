@@ -1,10 +1,14 @@
 @extends('layouts.base')
-
+<link rel="stylesheet" href="resources/css/style.css">
 @section('content')
 <div class="container" class=" col-xs-12">
-    <p><img src="img/ISOTIPO-BDV.png" width="55px" height="55px"> ARQFUN </p>
+                                <p><img src="img/ISOTIPO-BDV.png" width="55px" height="55px"> ARQFUN </p>
+                                <h1>Iniciar Sesión</h1>
+                                <hr>
                                 <input type="text"  class=" col-xs-12" id="usuario" name="usuario" class="form-control input-lg" placeholder="NM / CT " autocomplete="off"><br>
-                                <input type="password"   class=" col-xs-12"id="clave" name="clave" class="form-control input-lg" placeholder="Contraseña" autocomplete="off"><br>
-                                <button type="submit" > Iniciar Sesión</button>
+                                <input type="password"   class=" col-xs-12" id="clave" name="clave" class="form-control input-lg" placeholder="Contraseña" autocomplete="off"><br>
+                                <button type="submit" > Ingresar</button>
+                                
+                            </form>
 </div>
 @endsection

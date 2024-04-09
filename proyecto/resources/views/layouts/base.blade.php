@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="@vite('resources/css/app.css')">
+    <link rel="stylesheet" href="resources/css/app.css">
     <title>proyecto</title>
     
 </head>
@@ -21,7 +21,7 @@
         </div>
         <div id="footer">
         <footer>
-        <p><img class="imgfooter" src="{{asset('img/ISOTIPO-BDV.png')}}" width="25px" height="25px" id="footer" class="footer"> Banco de Venezuela - Gerencia de Línea Arquitectura Funcional-2022</p>
+        <p><img class="imgfooter" src="{{asset('img/ISOTIPO-BDV.png')}}" width="25px" height="25px"> Banco de Venezuela - Gerencia de Línea Arquitectura Funcional-2022</p>
         </footer> 
         </div>
     </div> 
