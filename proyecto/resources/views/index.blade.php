@@ -1,7 +1,7 @@
 @extends('layouts.base')
 @extends('layouts.menuh')
-@section('content')
-<body class="d-flex align-items-center py-4 bg-body-tertiary">
+@section('contenido')
+<body >
        
 <main class="form-signin w-40 m-auto">
   <form>
