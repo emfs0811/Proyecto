@@ -62,7 +62,6 @@
     </div>
    <div >
         <div id="header">
-            <img class="imgheader" src="{{asset('img/CINTILLO-GOB-BOL-NEGATIVO.png')}}"width="1000px" height=100px class="header">
             <img src="{{ asset('img/cintilloportal.jpg') }}"width="100%" height=90px id="header">
         </div>
         <div class="container">
